@@ -139,7 +139,7 @@ def mars_hemisphere_data(browser):
     
             #format data into dictionary 
             hemispheres_info.append({'img_url':image_url,'title':header})
-            time.sleep(.04)
+           
 
     except AttributeError:
         return None
